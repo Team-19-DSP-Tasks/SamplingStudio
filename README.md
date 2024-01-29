@@ -15,28 +15,28 @@ The Sampling-Theory Studio is a desktop application designed to illustrate the s
 
 ## Project Features
 
-- **Sample & Recover**:
+:white_check_mark: **Sample & Recover**:
   - Load a mid-length signal (around 1000 points).
   - Visualize and sample the signal at different frequencies.
   - Recover the original signal using Whittaker–Shannon interpolation.
   - Display three graphs: original signal with sampled points, reconstructed signal, and the difference between the original and reconstructed signals.
 
-- **Load & Compose**:
+:white_check_mark: **Load & Compose**:
   - Load signals from a file or compose signals using a signal mixer.
   - Signal mixer allows users to add multiple sinusoidal signals with different frequencies and magnitudes.
   - Users can remove components during signal composition.
 
-- **Additive Noise**:
+:white_check_mark: **Additive Noise**:
   - Introduce noise to the loaded signal with a custom/controllable Signal-to-Noise Ratio (SNR).
   - Demonstrate the dependency of noise effect on signal frequency.
 
-- **Real-time**:
+:white_check_mark: **Real-time**:
   - Sampling and recovery are performed in real-time upon user changes, eliminating the need for an explicit "Update" or "Refresh" button.
 
-- **Resize**:
+:white_check_mark: **Resize**:
   - The application is easily resizable without affecting the user interface.
 
-- **Different Sampling Scenarios**:
+:white_check_mark: **Different Sampling Scenarios**:
   - Prepare at least 3 testing synthetic signals, each addressing different scenarios.
   - Include a mix of 2Hz and 6Hz sinusoidals as an example.
   - Explore problematic scenarios or tricky features in the additional examples.
